@@ -1,0 +1,9 @@
+struct my_lcm_js_lcmt {
+    string name;
+    int16_t id;
+    boolean hege;
+    float arg;
+    int16_t chinese;
+    int16_t english;
+    int16_t math;
+}

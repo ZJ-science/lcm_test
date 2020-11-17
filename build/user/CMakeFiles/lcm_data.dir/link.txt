@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,liblcm_data.so -o liblcm_data.so CMakeFiles/lcm_data.dir/src/main_helper.cpp.o CMakeFiles/lcm_data.dir/src/my_lcm.cpp.o -llcm 

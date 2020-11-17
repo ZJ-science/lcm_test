@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zj-robot/projects/lcm_test/lcm_hpp/cpp/my_lcm_fs_lcmt.hpp
+lcm/lcm_coretypes.h
+-
+string
+-
+
+/home/zj-robot/projects/lcm_test/lcm_hpp/cpp/my_lcm_js_lcmt.hpp
+lcm/lcm_coretypes.h
+-
+string
+-
+
+/home/zj-robot/projects/lcm_test/main.cpp
+iostream
+-
+user/include/main_helper.h
+/home/zj-robot/projects/lcm_test/user/include/main_helper.h
+
+/home/zj-robot/projects/lcm_test/user/include/main_helper.h
+iostream
+-
+thread
+-
+my_lcm.h
+/home/zj-robot/projects/lcm_test/user/include/my_lcm.h
+
+/home/zj-robot/projects/lcm_test/user/include/my_lcm.h
+lcm/lcm-cpp.hpp
+/home/zj-robot/projects/lcm_test/user/include/lcm/lcm-cpp.hpp
+../../lcm_hpp/cpp/my_lcm_fs_lcmt.hpp
+/home/zj-robot/projects/lcm_test/lcm_hpp/cpp/my_lcm_fs_lcmt.hpp
+../../lcm_hpp/cpp/my_lcm_js_lcmt.hpp
+/home/zj-robot/projects/lcm_test/lcm_hpp/cpp/my_lcm_js_lcmt.hpp
+iostream
+-
+
